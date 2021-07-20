@@ -9,7 +9,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     clean: true,
   },
-  
+
   module: {
     rules: [
       {
@@ -31,5 +31,5 @@ module.exports = {
       template: './src/index.html',
     }),
   ],
-  
+
 };

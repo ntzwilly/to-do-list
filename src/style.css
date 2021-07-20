@@ -99,7 +99,6 @@ button:focus {
   width: 100%;
   padding: 3px;
   margin-left: 15px;
-  width: 100%;
   font-size: 1rem;
   color: rgb(88, 86, 86);
   border: none;
@@ -145,24 +144,16 @@ button:focus {
   opacity: 1;
 }
 
-.draggable {
-  cursor: move;
-}
-
-.draggable.dragging {
-  opacity: 0.4;
-}
-
 .line-through {
   text-decoration: line-through;
 }
 
 .task-background {
-  background-color: rgb(255,254,202);
+  background-color: rgb(255, 254, 202);
 }
 
 .input-background {
-  background: rgb(255,254,202);;
+  background: rgb(255, 254, 202);
 }
 
 @media screen and (min-width: 768px) {
